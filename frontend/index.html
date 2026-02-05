@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h2>Add Intent</h2>
+  <input id="intentName" placeholder="Intent name" />
+  <input id="replyText" placeholder="Reply text" />
+  <button onclick="addIntent()">Add Intent</button>
+
+  <h2>Add Question</h2>
+  <input id="intentId" placeholder="Intent ID" />
+  <input id="questionText" placeholder="Question" />
+  <button onclick="addQuestion()">Add Question</button>
+
+  <hr>
+
+  <h2>Chat</h2>
+  <input id="message" placeholder="Type message" />
+  <button onclick="sendMessage()">Send</button>
+
+  <p id="reply"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
